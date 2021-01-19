@@ -41,12 +41,12 @@
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "Username or ID of channel. Without subscribing this channel users cannot use bot.",
+            "description": "Username or ID of channel. Without subscribing this channel users cannot use bot.මේචනල් එකේ බුට් ඇඩ්මින් තියන්න ඔනේ",
             "value": "",
             "required": false
         },
         "INVITE_MSG": {
-            "description": "Auth channel invitation message",
+            "description": "Auth channel invitation message ඉන්වයිට් මැසෙජ් එකට @ එකත් එක්ක චනල් යුසර්නේම් දාන්න. එවගෙම සිංහල මොඩ් එකට විතරක් තියන ඔප්ශන් එකක් වන {first_name} {last_name} මෙන්න මේ ක ඉන්වයිට් මැසෙජ් එකේ තැනකින් දාන්න එතකොට යුසර්ග්ගෙ නම පෙන්නවා",
             "value": "'Please join @.... to use this bot'",
             "required": false
         },
