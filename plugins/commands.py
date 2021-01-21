@@ -16,7 +16,8 @@ async def start(bot, message):
         await message.reply(INVITE_MSG.format(username=user.username, first_name=user.first_name, last_name=user.last_name))
     else:
           buttons = [[
-            InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),   
+            InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''), 
+  
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         user = message.from_user
