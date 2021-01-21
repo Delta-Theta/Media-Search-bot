@@ -17,7 +17,7 @@ async def start(bot, message):
     else:
         buttons = [[
             InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),
-            
+            InlineKeyboardButton('Share bot', url=url),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         user = message.from_user
