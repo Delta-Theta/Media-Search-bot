@@ -15,10 +15,8 @@ async def start(bot, message):
         user = message.from_user
         await message.reply(INVITE_MSG.format(username=user.username, first_name=user.first_name, last_name=user.last_name))
     else:
-        url =  t.me/share/url?url=  + quote(SHARE_BUTTON_TEXT.format(username=username))
-        buttons = [[
-            InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),
-            InlineKeyboardButton( Share bot , url=url),
+          buttons = [[
+            InlineKeyboardButton('Click To Search 👆', switch_inline_query_current_chat=''),   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         user = message.from_user
