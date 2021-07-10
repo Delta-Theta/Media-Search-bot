@@ -18,7 +18,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='plz click here\nyou are not subscribe our channel',
+                           switch_pm_text='plz click here you are not subscribe our channel',
                            switch_pm_parameter="subscribe")
         return
 
